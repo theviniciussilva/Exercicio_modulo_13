@@ -1,0 +1,22 @@
+body{
+    padding-top: 50px;
+    background-color: #ccc;
+}
+.carousel-inner{
+    max-height: 600px;
+}
+#container-cards{
+    margin-top: 30px;
+}
+.card-img-overlay{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 670px) {
+    .carousel-inner{
+        max-height: 300px;
+    }
+
+    #cards-content{
+        margin-bottom: 30px;
+    }    
+}
